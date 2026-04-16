@@ -1,17 +1,40 @@
 {
-    "name": "joebin-green-theme",
-    "displayName": "Joebin Green",
-    "version": "1.0.0",
-    "engines": {
-        "vscode": "^1.80.0"
-    },
-    "contributes": {
-        "themes": [
-            {
-                "label": "Joebin Green",
-                "uiTheme": "vs-dark",
-                "path": "./themes/joebin-green-theme.json"
-            }
-        ]
-    }
+  "name": "joebin-green-theme",
+  "displayName": "Joebin Green",
+  "description": "A dark VS Code theme with green-accented syntax highlighting, optimized for readability and LaTeX work.",
+  "version": "1.0.0",
+  "publisher": "Jewbeluga",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jewbeluga/joebin-green-theme.git"
+  },
+  "license": "MIT",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "green theme",
+    "latex",
+    "syntax highlighting"
+  ],
+  "files": [
+    "themes/**",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Joebin Green",
+        "uiTheme": "vs-dark",
+        "path": "./themes/joebin-green-theme.json"
+      }
+    ]
+  }
 }
